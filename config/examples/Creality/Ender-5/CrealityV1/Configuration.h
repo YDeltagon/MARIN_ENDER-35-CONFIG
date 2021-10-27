@@ -21,6 +21,8 @@
  */
 #pragma once
 
+#define CONFIG_EXAMPLES_DIR "Creality/Ender-5/CrealityV1"
+
 /**
  * Configuration.h
  *
@@ -260,7 +262,6 @@
 
   #define PARKING_EXTRUDER_PARKING_X { -78, 184 }     // X positions for parking the extruders
   #define PARKING_EXTRUDER_GRAB_DISTANCE 1            // (mm) Distance to move beyond the parking point to grab the extruder
-  //#define MANUAL_SOLENOID_CONTROL                   // Manual control of docking solenoids with M380 S / M381
 
   #if ENABLED(PARKING_EXTRUDER)
 
